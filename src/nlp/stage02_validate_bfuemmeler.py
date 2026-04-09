@@ -1,6 +1,5 @@
 """
-src/nlp/stage02_validate_case.py - Validate Stage
-(EDIT YOUR COPY OF THIS FILE)
+src/nlp/stage02_validate_bfuemmeler.py - Validate Stage
 
 Source: Raw HTML string
 Sink:   BeautifulSoup object (in memory)

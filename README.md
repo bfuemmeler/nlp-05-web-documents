@@ -40,14 +40,14 @@ Each stage is implemented as a modular component with explicit inputs and output
 These files define the EVTL pipeline and the components you will update for your project.
 
 - **src/nlp/pipeline_web_html.py** - Main pipeline orchestrator (no changes required)
-- **src/nlp/config_case.py** - Configuration for page URL and paths (<mark>**copy and edit**</mark> for your project)
+- **src/nlp/config_bfuemmeler.py** - Configuration for page URL and paths
 - **src/nlp/stage01_extract.py** - Extract stage: fetches HTML from a web page (no changes required)
-- **src/nlp/stage02_validate_case.py** - Validate stage: inspects and verifies HTML structure (<mark>**copy and edit**</mark>)
-- **src/nlp/stage03_transform_case.py** - Transform stage: converts HTML into structured data (<mark>**copy and edit**</mark>)
+- **src/nlp/stage02_validate_bfuemmeler.py** - Validate stage: inspects and verifies HTML structure
+- **src/nlp/stage03_transform_bfuemmeler.py** - Transform stage: converts HTML into structured data
 - **src/nlp/stage04_load.py** - Load stage: writes output to persistent storage (no changes required)
-- **pyproject.toml** - Project metadata and dependencies (<mark>**update**</mark> authorship, links, and dependencies)
-- **zensical.toml** - Documentation configuration (<mark>**update**</mark> authorship and links)
-
+- **pyproject.toml** - Project metadata and dependencies
+- **zensical.toml** - Documentation configuration
+-
 ## First: Follow These Instructions
 
 Follow the [step-by-step workflow guide](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/) to complete:
@@ -77,8 +77,8 @@ Pipeline executed successfully!
 The following artifacts will be created:
 
 - project.log - confirming successful run
-- data/raw/case_raw.json - dump of the fetched JSON
-- data/processed/case_processed.csv - final loaded result
+- data/raw/bfuemmeler_raw.json - dump of the fetched JSON
+- data/processed/bfuemmeler_processed.csv - final loaded result
 
 ## Command Reference
 
@@ -97,7 +97,7 @@ open a machine terminal in your `Repos` folder:
 
 ```shell
 # Replace username with YOUR GitHub username.
-git clone https://github.com/username/nlp-05-web-documents
+git clone https://github.com/bfuemmeler/nlp-05-web-documents
 cd nlp-05-web-documents
 code .
 ```
