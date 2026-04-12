@@ -204,3 +204,7 @@ of the pipeline.
 
 ## Make a Technical Modification
 - Change the target URL to "https://arxiv.org/abs/2604.08148"
+
+## Apply Skills to New Project
+- Change the target URL to "https://www.gutenberg.org/cache/epub/67098/pg67098-images.html"
+-

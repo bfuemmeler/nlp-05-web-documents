@@ -3,30 +3,6 @@ src/nlp/stage02_validate_bfuemmeler.py - Validate Stage
 
 Source: Raw HTML string
 Sink:   BeautifulSoup object (in memory)
-
-Purpose
-
-  Validates that the expected page structure is present.
-
-Analytical Questions
-
-- What is the top-level structure of the HTML document?
-- What elements are present in the document?
-- What data types are associated with each field?
-- Does the data meet expectations for transformation?
-
-Notes
-
-Following our process, do NOT edit this _case file directly,
-keep it as a working example.
-
-In your custom project, copy this _case.py file and
-append with _yourname.py instead.
-
-Then edit your copied Python file to:
-- inspect the JSON structure for your API,
-- validate required keys and types,
-- confirm the data is usable for your analysis.
 """
 
 # ============================================================
@@ -59,60 +35,50 @@ def run_validate(
     LOG.info("STAGE 02: VALIDATE starting...")
     LOG.info("========================")
 
-    # ============================================================
-    # INSPECT HTML STRUCTURE
-    # ============================================================
-
     LOG.info("HTML STRUCTURE INSPECTION:")
 
     # Parse the HTML content using BeautifulSoup
     soup = BeautifulSoup(html_content, "html.parser")
 
-    # Log the type of the top-level HTML structure.
+    # Log the type of the top-level HTML structure
     LOG.info(f"Top-level type: {type(soup).__name__}")
 
     # Log the top-level elements in the HTML document
-    LOG.info(
-        f"Top-level elements: {[element.name for element in soup.find_all(recursive=False)]}"
-    )
+    top_level_elements = [element.name for element in soup.find_all(recursive=False)]
+    LOG.info(f"Top-level elements: {top_level_elements}")
 
     # ============================================================
     # VALIDATE EXPECTATIONS
     # ============================================================
 
-    # Check for expected structural elements
-    title = soup.find("h1", class_="title")
-    authors = soup.find("div", class_="authors")
-    abstract = soup.find("blockquote", class_="abstract")
-    subjects = soup.find("div", class_="subheader")
-    dateline = soup.find("div", class_="dateline")
+    # More flexible checks for a Gutenberg HTML page
+    page_title = soup.find("title")
+    headings = soup.find_all(["h1", "h2", "h3"])
+    paragraphs = soup.find_all("p")
+    images = soup.find_all("img")
 
-    LOG.info("VALIDATE: Title found: %s", title is not None)
-    LOG.info("VALIDATE: Authors found: %s", authors is not None)
-    LOG.info("VALIDATE: Abstract found: %s", abstract is not None)
-    LOG.info("VALIDATE: Subjects found: %s", subjects is not None)
-    LOG.info("VALIDATE: Dateline found: %s", dateline is not None)
+    LOG.info("VALIDATE: <title> found: %s", page_title is not None)
+    LOG.info("VALIDATE: headings found: %s", len(headings) > 0)
+    LOG.info("VALIDATE: paragraphs found: %s", len(paragraphs) > 0)
+    LOG.info("VALIDATE: images found: %s", len(images) > 0)
 
     missing = []
-    if not title:
+
+    # Require a page title
+    if not page_title:
         missing.append("title")
-    if not authors:
-        missing.append("authors")
-    if not abstract:
-        missing.append("abstract")
-    if not subjects:
-        missing.append("subjects")
-    if not dateline:
-        missing.append("dateline")
+
+    # Require readable page content
+    if not headings and not paragraphs:
+        missing.append("readable content (headings or paragraphs)")
 
     if missing:
         raise ValueError(
             f"VALIDATE: Required elements missing: {missing}. "
-            "Page structure may have changed."
+            "Page structure may have changed or selectors may not match this source."
         )
 
     LOG.info("VALIDATE: HTML structure is valid.")
     LOG.info("Sink: validated BeautifulSoup object")
 
-    # Return the validated BeautifulSoup object for use in the next stage.
     return soup

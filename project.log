@@ -180,3 +180,263 @@
 2026-04-12 13:58:55 | INFO | CI | ========================
 2026-04-12 13:58:55 | INFO | CI | Pipeline executed successfully!
 2026-04-12 13:58:55 | INFO | CI | ========================
+2026-04-12 14:29:00 | INFO | CI | === RUN START ===
+2026-04-12 14:29:00 | INFO | CI | project=Module 5: EVTL PIPELINE - WEB DOCUMENTS (HTML)
+2026-04-12 14:29:00 | INFO | CI | repo_dir=nlp-05-web-documents
+2026-04-12 14:29:00 | INFO | CI | python=3.14.3
+2026-04-12 14:29:00 | INFO | CI | os=Windows 11
+2026-04-12 14:29:00 | INFO | CI | shell=powershell
+2026-04-12 14:29:00 | INFO | CI | cwd=.
+2026-04-12 14:29:00 | INFO | CI | github_actions=False
+2026-04-12 14:29:00 | INFO | CI | START PIPELINE
+2026-04-12 14:29:00 | INFO | CI | ROOT_PATH = .
+2026-04-12 14:29:00 | INFO | CI | DATA_PATH = data
+2026-04-12 14:29:00 | INFO | CI | RAW_PATH = data\raw
+2026-04-12 14:29:00 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-12 14:29:00 | INFO | CI | ========================
+2026-04-12 14:29:00 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-12 14:29:00 | INFO | CI | ========================
+2026-04-12 14:29:00 | INFO | CI | EXTRACT: Fetching HTML from https://www.gutenberg.org/cache/epub/67098/pg67098-images.html
+2026-04-12 14:29:00 | INFO | CI | SOURCE URL = https://www.gutenberg.org/cache/epub/67098/pg67098-images.html
+2026-04-12 14:29:00 | INFO | CI | SINK PATH = data\raw\bfuemmeler_raw.html
+2026-04-12 14:29:00 | INFO | CI | ========================
+2026-04-12 14:29:00 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-12 14:29:00 | INFO | CI | ========================
+2026-04-12 14:29:00 | INFO | CI | HTML STRUCTURE INSPECTION:
+2026-04-12 14:29:00 | INFO | CI | Top-level type: BeautifulSoup
+2026-04-12 14:29:00 | INFO | CI | Top-level elements: ['html']
+2026-04-12 14:29:00 | INFO | CI | VALIDATE: Title found: False
+2026-04-12 14:29:00 | INFO | CI | VALIDATE: Authors found: False
+2026-04-12 14:29:00 | INFO | CI | VALIDATE: Abstract found: False
+2026-04-12 14:29:00 | INFO | CI | VALIDATE: Subjects found: False
+2026-04-12 14:29:00 | INFO | CI | VALIDATE: Dateline found: False
+2026-04-12 14:48:15 | INFO | CI | === RUN START ===
+2026-04-12 14:48:15 | INFO | CI | project=Module 5: EVTL PIPELINE - WEB DOCUMENTS (HTML)
+2026-04-12 14:48:15 | INFO | CI | repo_dir=nlp-05-web-documents
+2026-04-12 14:48:15 | INFO | CI | python=3.14.3
+2026-04-12 14:48:15 | INFO | CI | os=Windows 11
+2026-04-12 14:48:15 | INFO | CI | shell=powershell
+2026-04-12 14:48:15 | INFO | CI | cwd=.
+2026-04-12 14:48:15 | INFO | CI | github_actions=False
+2026-04-12 14:48:15 | INFO | CI | START PIPELINE
+2026-04-12 14:48:15 | INFO | CI | ROOT_PATH = .
+2026-04-12 14:48:15 | INFO | CI | DATA_PATH = data
+2026-04-12 14:48:15 | INFO | CI | RAW_PATH = data\raw
+2026-04-12 14:48:15 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-12 14:48:15 | INFO | CI | ========================
+2026-04-12 14:48:15 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-12 14:48:15 | INFO | CI | ========================
+2026-04-12 14:48:15 | INFO | CI | EXTRACT: Fetching HTML from https://www.gutenberg.org/cache/epub/67098/pg67098-images.html
+2026-04-12 14:48:15 | INFO | CI | SOURCE URL = https://www.gutenberg.org/cache/epub/67098/pg67098-images.html
+2026-04-12 14:48:15 | INFO | CI | SINK PATH = data\raw\bfuemmeler_raw.html
+2026-04-12 14:48:15 | INFO | CI | ========================
+2026-04-12 14:48:15 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-12 14:48:15 | INFO | CI | ========================
+2026-04-12 14:48:15 | INFO | CI | HTML STRUCTURE INSPECTION:
+2026-04-12 14:48:15 | INFO | CI | Top-level type: BeautifulSoup
+2026-04-12 14:48:15 | INFO | CI | Top-level elements: ['html']
+2026-04-12 14:48:15 | INFO | CI | VALIDATE: Title found: False
+2026-04-12 14:48:15 | INFO | CI | VALIDATE: Authors found: False
+2026-04-12 14:48:15 | INFO | CI | VALIDATE: Abstract found: False
+2026-04-12 14:48:15 | INFO | CI | VALIDATE: Subjects found: False
+2026-04-12 14:48:15 | INFO | CI | VALIDATE: Dateline found: False
+2026-04-12 14:57:38 | INFO | CI | === RUN START ===
+2026-04-12 14:57:38 | INFO | CI | project=Module 5: EVTL PIPELINE - WEB DOCUMENTS (HTML)
+2026-04-12 14:57:38 | INFO | CI | repo_dir=nlp-05-web-documents
+2026-04-12 14:57:38 | INFO | CI | python=3.14.3
+2026-04-12 14:57:38 | INFO | CI | os=Windows 11
+2026-04-12 14:57:38 | INFO | CI | shell=powershell
+2026-04-12 14:57:38 | INFO | CI | cwd=.
+2026-04-12 14:57:38 | INFO | CI | github_actions=False
+2026-04-12 14:57:38 | INFO | CI | START PIPELINE
+2026-04-12 14:57:38 | INFO | CI | ROOT_PATH = .
+2026-04-12 14:57:38 | INFO | CI | DATA_PATH = data
+2026-04-12 14:57:38 | INFO | CI | RAW_PATH = data\raw
+2026-04-12 14:57:38 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-12 14:57:38 | INFO | CI | ========================
+2026-04-12 14:57:38 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-12 14:57:38 | INFO | CI | ========================
+2026-04-12 14:57:38 | INFO | CI | EXTRACT: Fetching HTML from https://www.gutenberg.org/cache/epub/67098/pg67098-images.html
+2026-04-12 14:57:38 | INFO | CI | SOURCE URL = https://www.gutenberg.org/cache/epub/67098/pg67098-images.html
+2026-04-12 14:57:38 | INFO | CI | SINK PATH = data\raw\bfuemmeler_raw.html
+2026-04-12 14:57:38 | INFO | CI | ========================
+2026-04-12 14:57:38 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-12 14:57:38 | INFO | CI | ========================
+2026-04-12 14:57:38 | INFO | CI | HTML STRUCTURE INSPECTION:
+2026-04-12 14:57:38 | INFO | CI | Top-level type: BeautifulSoup
+2026-04-12 14:57:38 | INFO | CI | Top-level elements: ['html']
+2026-04-12 14:57:38 | INFO | CI | VALIDATE: Title found: False
+2026-04-12 14:57:38 | INFO | CI | VALIDATE: Authors found: False
+2026-04-12 14:57:38 | INFO | CI | VALIDATE: Illustrator found: False
+2026-04-12 14:57:38 | INFO | CI | VALIDATE: Release Date found: False
+2026-04-12 14:57:38 | INFO | CI | VALIDATE: Language found: False
+2026-04-12 15:12:16 | INFO | CI | === RUN START ===
+2026-04-12 15:12:16 | INFO | CI | project=Module 5: EVTL PIPELINE - WEB DOCUMENTS (HTML)
+2026-04-12 15:12:16 | INFO | CI | repo_dir=nlp-05-web-documents
+2026-04-12 15:12:16 | INFO | CI | python=3.14.3
+2026-04-12 15:12:16 | INFO | CI | os=Windows 11
+2026-04-12 15:12:16 | INFO | CI | shell=powershell
+2026-04-12 15:12:16 | INFO | CI | cwd=.
+2026-04-12 15:12:16 | INFO | CI | github_actions=False
+2026-04-12 15:12:16 | INFO | CI | START PIPELINE
+2026-04-12 15:12:16 | INFO | CI | ROOT_PATH = .
+2026-04-12 15:12:16 | INFO | CI | DATA_PATH = data
+2026-04-12 15:12:16 | INFO | CI | RAW_PATH = data\raw
+2026-04-12 15:12:16 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-12 15:12:16 | INFO | CI | ========================
+2026-04-12 15:12:16 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-12 15:12:16 | INFO | CI | ========================
+2026-04-12 15:12:16 | INFO | CI | EXTRACT: Fetching HTML from https://www.gutenberg.org/cache/epub/67098/pg67098-images.html
+2026-04-12 15:12:16 | INFO | CI | SOURCE URL = https://www.gutenberg.org/cache/epub/67098/pg67098-images.html
+2026-04-12 15:12:16 | INFO | CI | SINK PATH = data\raw\bfuemmeler_raw.html
+2026-04-12 15:12:16 | INFO | CI | ========================
+2026-04-12 15:12:16 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-12 15:12:16 | INFO | CI | ========================
+2026-04-12 15:12:16 | INFO | CI | HTML STRUCTURE INSPECTION:
+2026-04-12 15:12:17 | INFO | CI | Top-level type: BeautifulSoup
+2026-04-12 15:12:17 | INFO | CI | Top-level elements: ['html']
+2026-04-12 15:12:17 | INFO | CI | VALIDATE: Title found: False
+2026-04-12 15:12:17 | INFO | CI | VALIDATE: Authors found: False
+2026-04-12 15:12:17 | INFO | CI | VALIDATE: Illustrator found: False
+2026-04-12 15:15:51 | INFO | CI | === RUN START ===
+2026-04-12 15:15:51 | INFO | CI | project=Module 5: EVTL PIPELINE - WEB DOCUMENTS (HTML)
+2026-04-12 15:15:51 | INFO | CI | repo_dir=nlp-05-web-documents
+2026-04-12 15:15:51 | INFO | CI | python=3.14.3
+2026-04-12 15:15:51 | INFO | CI | os=Windows 11
+2026-04-12 15:15:51 | INFO | CI | shell=powershell
+2026-04-12 15:15:51 | INFO | CI | cwd=.
+2026-04-12 15:15:51 | INFO | CI | github_actions=False
+2026-04-12 15:15:51 | INFO | CI | START PIPELINE
+2026-04-12 15:15:51 | INFO | CI | ROOT_PATH = .
+2026-04-12 15:15:51 | INFO | CI | DATA_PATH = data
+2026-04-12 15:15:51 | INFO | CI | RAW_PATH = data\raw
+2026-04-12 15:15:51 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-12 15:15:51 | INFO | CI | ========================
+2026-04-12 15:15:51 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-12 15:15:51 | INFO | CI | ========================
+2026-04-12 15:15:51 | INFO | CI | EXTRACT: Fetching HTML from https://www.gutenberg.org/cache/epub/67098/pg67098-images.html
+2026-04-12 15:15:52 | INFO | CI | SOURCE URL = https://www.gutenberg.org/cache/epub/67098/pg67098-images.html
+2026-04-12 15:15:52 | INFO | CI | SINK PATH = data\raw\bfuemmeler_raw.html
+2026-04-12 15:15:52 | INFO | CI | ========================
+2026-04-12 15:15:52 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-12 15:15:52 | INFO | CI | ========================
+2026-04-12 15:15:52 | INFO | CI | HTML STRUCTURE INSPECTION:
+2026-04-12 15:15:52 | INFO | CI | Top-level type: BeautifulSoup
+2026-04-12 15:15:52 | INFO | CI | Top-level elements: ['html']
+2026-04-12 15:15:52 | INFO | CI | VALIDATE: <title> found: True
+2026-04-12 15:15:52 | INFO | CI | VALIDATE: headings found: True
+2026-04-12 15:15:52 | INFO | CI | VALIDATE: paragraphs found: True
+2026-04-12 15:15:52 | INFO | CI | VALIDATE: images found: True
+2026-04-12 15:15:52 | INFO | CI | VALIDATE: HTML structure is valid.
+2026-04-12 15:15:52 | INFO | CI | Sink: validated BeautifulSoup object
+2026-04-12 15:15:52 | INFO | CI | ========================
+2026-04-12 15:15:52 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-12 15:15:52 | INFO | CI | ========================
+2026-04-12 15:15:52 | INFO | CI | Extracting metadata from HTML
+2026-04-12 15:15:52 | INFO | CI | We must manually inspect the HTML structure to identify the fields we want to extract.
+2026-04-12 15:15:52 | INFO | CI | For this arXiv page, we can extract:
+- Title from <h1 class='title'>
+- Authors from <div class='authors'>
+- Abstract from <blockquote class='abstract'>
+- Primary subject from <div class='subheader'>
+- Submission date from <div class='dateline'>
+- ArXiv ID from canonical link
+2026-04-12 15:15:52 | INFO | CI | Replace any missing content with `unknown` to ensure all are strings.
+2026-04-12 15:15:52 | INFO | CI | ========================
+2026-04-12 15:15:52 | INFO | CI | STAGE 03a: Extract bibliographic fields (title, authors, abstract)
+2026-04-12 15:15:52 | INFO | CI | ========================
+2026-04-12 15:15:52 | INFO | CI | Extracted title: unknown
+2026-04-12 15:15:52 | INFO | CI | Extracted authors: unknown
+2026-04-12 15:15:52 | INFO | CI | Extracted abstract: unknown...
+2026-04-12 15:15:52 | INFO | CI | ========================
+2026-04-12 15:15:52 | INFO | CI | STAGE 03b: Extract metadata field subjects from subheader
+2026-04-12 15:15:52 | INFO | CI | ========================
+2026-04-12 15:15:52 | INFO | CI | Extracted subjects: unknown
+2026-04-12 15:15:52 | INFO | CI | ========================
+2026-04-12 15:15:52 | INFO | CI | STAGE 03c: Extract metadata field date from dateline
+2026-04-12 15:15:52 | INFO | CI | ========================
+2026-04-12 15:15:52 | INFO | CI | Extracted submitted: unknown
+2026-04-12 15:15:52 | INFO | CI | ========================
+2026-04-12 15:15:52 | INFO | CI | STAGE 03d: Extract metadata field arxiv_id from canonical link
+2026-04-12 15:15:52 | INFO | CI | ========================
+2026-04-12 15:15:52 | WARNING | CI | Canonical link not found, setting arXiv ID to 'unknown'
+2026-04-12 15:15:52 | INFO | CI | Extracted arxiv_id: unknown
+2026-04-12 15:15:52 | INFO | CI | ========================
+2026-04-12 15:15:52 | INFO | CI | STAGE 03e: Calculate derived fields
+2026-04-12 15:15:52 | INFO | CI | ========================
+2026-04-12 15:15:52 | INFO | CI | Calculated abstract word count: 0
+2026-04-12 15:15:52 | INFO | CI | Calculated author count: 0
+2026-04-12 15:15:52 | INFO | CI | ========================
+2026-04-12 15:15:52 | INFO | CI | STAGE 03f: Build record and create DataFrame
+2026-04-12 15:15:52 | INFO | CI | ========================
+2026-04-12 15:15:52 | INFO | CI | Created DataFrame with 1 row and 8 columns
+2026-04-12 15:15:52 | INFO | CI | Columns: ['arxiv_id', 'title', 'authors', 'subjects', 'submitted', 'abstract', 'abstract_word_count', 'author_count']
+2026-04-12 15:15:52 | INFO | CI | DataFrame Details
+2026-04-12 15:15:52 | INFO | CI |   Title: unknown
+2026-04-12 15:15:52 | INFO | CI |   Author count: 0
+2026-04-12 15:15:52 | INFO | CI |   Abstract word count: 0
+2026-04-12 15:15:52 | INFO | CI |   DataFrame preview:
+  arxiv_id    title  authors subjects submitted abstract  abstract_word_count  author_count
+0  unknown  unknown  unknown  unknown   unknown  unknown                    0             0
+2026-04-12 15:15:52 | INFO | CI | Sink: Pandas DataFrame created
+2026-04-12 15:15:52 | INFO | CI | Transformation complete.
+2026-04-12 15:15:52 | INFO | CI | ========================
+2026-04-12 15:15:52 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-12 15:15:52 | INFO | CI | ========================
+2026-04-12 15:15:52 | INFO | CI | SINK PATH = data\processed\bfuemmeler_processed.csv
+2026-04-12 15:15:52 | INFO | CI | ========================
+2026-04-12 15:15:52 | INFO | CI | Pipeline executed successfully!
+2026-04-12 15:15:52 | INFO | CI | ========================
+2026-04-12 15:22:45 | INFO | CI | === RUN START ===
+2026-04-12 15:22:45 | INFO | CI | project=Module 5: EVTL PIPELINE - WEB DOCUMENTS (HTML)
+2026-04-12 15:22:45 | INFO | CI | repo_dir=nlp-05-web-documents
+2026-04-12 15:22:45 | INFO | CI | python=3.14.3
+2026-04-12 15:22:45 | INFO | CI | os=Windows 11
+2026-04-12 15:22:45 | INFO | CI | shell=powershell
+2026-04-12 15:22:45 | INFO | CI | cwd=.
+2026-04-12 15:22:45 | INFO | CI | github_actions=False
+2026-04-12 15:22:45 | INFO | CI | START PIPELINE
+2026-04-12 15:22:45 | INFO | CI | ROOT_PATH = .
+2026-04-12 15:22:45 | INFO | CI | DATA_PATH = data
+2026-04-12 15:22:45 | INFO | CI | RAW_PATH = data\raw
+2026-04-12 15:22:45 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-12 15:22:45 | INFO | CI | ========================
+2026-04-12 15:22:45 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-12 15:22:45 | INFO | CI | ========================
+2026-04-12 15:22:45 | INFO | CI | EXTRACT: Fetching HTML from https://www.gutenberg.org/cache/epub/67098/pg67098-images.html
+2026-04-12 15:22:45 | INFO | CI | SOURCE URL = https://www.gutenberg.org/cache/epub/67098/pg67098-images.html
+2026-04-12 15:22:45 | INFO | CI | SINK PATH = data\raw\bfuemmeler_raw.html
+2026-04-12 15:22:45 | INFO | CI | ========================
+2026-04-12 15:22:45 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-12 15:22:45 | INFO | CI | ========================
+2026-04-12 15:22:45 | INFO | CI | HTML STRUCTURE INSPECTION:
+2026-04-12 15:22:45 | INFO | CI | Top-level type: BeautifulSoup
+2026-04-12 15:22:45 | INFO | CI | Top-level elements: ['html']
+2026-04-12 15:22:45 | INFO | CI | VALIDATE: <title> found: True
+2026-04-12 15:22:45 | INFO | CI | VALIDATE: headings found: True
+2026-04-12 15:22:45 | INFO | CI | VALIDATE: paragraphs found: True
+2026-04-12 15:22:45 | INFO | CI | VALIDATE: images found: True
+2026-04-12 15:22:45 | INFO | CI | VALIDATE: HTML structure is valid.
+2026-04-12 15:22:45 | INFO | CI | Sink: validated BeautifulSoup object
+2026-04-12 15:22:45 | INFO | CI | ========================
+2026-04-12 15:22:45 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-12 15:22:45 | INFO | CI | ========================
+2026-04-12 15:22:45 | INFO | CI | Extracted title: The Project Gutenberg eBook of Winnie-the-pooh, by A. A. Milne.
+2026-04-12 15:22:45 | INFO | CI | Extracted 947 usable paragraphs
+2026-04-12 15:22:45 | INFO | CI | Created DataFrame with 947 rows
+2026-04-12 15:22:45 | INFO | CI | Columns: ['paragraph_id', 'text', 'word_count', 'char_count', 'title']
+2026-04-12 15:22:45 | INFO | CI | Sample:
+2026-04-12 15:22:45 | INFO | CI | 
+   paragraph_id                                               text  word_count  char_count                                              title
+0             0                             Title: Winnie-the-Pooh           2          22  The Project Gutenberg eBook of Winnie-the-pooh...
+1             2                     Illustrator: Ernest H. Shepard           4          30  The Project Gutenberg eBook of Winnie-the-pooh...
+2             3  Release date: January 3, 2022 [eBook #67098]Mo...          12          84  The Project Gutenberg eBook of Winnie-the-pooh...
+3             5  Original publication: Canada: McClelland & Ste...           8          61  The Project Gutenberg eBook of Winnie-the-pooh...
+4             6  Other information and formats:www.gutenberg.or...           4          60  The Project Gutenberg eBook of Winnie-the-pooh...
+2026-04-12 15:22:45 | INFO | CI | ========================
+2026-04-12 15:22:45 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-12 15:22:45 | INFO | CI | ========================
+2026-04-12 15:22:45 | INFO | CI | SINK PATH = data\processed\bfuemmeler_processed.csv
+2026-04-12 15:22:45 | INFO | CI | ========================
+2026-04-12 15:22:45 | INFO | CI | Pipeline executed successfully!
+2026-04-12 15:22:45 | INFO | CI | ========================
