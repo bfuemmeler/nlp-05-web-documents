@@ -201,3 +201,6 @@ so later steps can run without errors or unexpected results.
 In this project, validation is implemented directly,
 so all checks are visible, repeatable, and easy to review as part
 of the pipeline.
+
+## Make a Technical Modification
+- Change the target URL to "https://arxiv.org/abs/2604.08148"

@@ -225,14 +225,14 @@ def run_transform(
     LOG.info("========================")
 
     # The canonical link looks like this in the HTML <head>:
-    #   <link rel="canonical" href="https://arxiv.org/abs/2602.20021"/>
+    #   <link rel="canonical" href="https://arxiv.org/abs/2604.08148"/>
     #
     # canonical["href"] accesses the HTML `href` attribute value.
     # BeautifulSoup returns it as an AttributeValueList, not a plain string.
     # Cast it to str() first to use string methods like .split().
     #
     # .split("/abs/") splits the URL on the text "/abs/" in the URL, returning a list:
-    #   ["https://arxiv.org", "2602.20021"]
+    #   ["https://arxiv.org", "2604.08148"]
     #
     # Lists in Python are zero-indexed, so
     # [0] gets the first element of the list,
@@ -244,9 +244,9 @@ def run_transform(
     #   [-1] to get the last element
     #
     # Example:
-    #   "https://arxiv.org/abs/2602.20021".split("/abs/")
-    #   returns a list with two items: ["https://arxiv.org", "2602.20021"]
-    #   the last (or second) item is the arxiv id: "2602.20021"
+    #   "https://arxiv.org/abs/2604.08148".split("/abs/")
+    #   returns a list with two items: ["https://arxiv.org", "2604.08148"]
+    #   the last (or second) item is the arxiv id: "2604.08148"
     canonical: Tag | None = soup.find("link", rel="canonical")
 
     if canonical is None:
